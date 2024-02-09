@@ -10,4 +10,9 @@ public class TestController {
     public String hello() {
         return "Hello from Heroku";
     }
+
+    @GetMapping("/")
+    public String qwe() {
+        return "QWEqwe qwe qw";
+    }
 }
